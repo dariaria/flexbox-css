@@ -17,28 +17,27 @@ body{
 .flex-container{
     display: flex;
     background: lavender;
+    flex-wrap: wrap;
+    
    
 }
 
 .box{
     height: 100px;
-    min-width: 320px;
-    
+    min-width: 200px;
+    flex-grow: 2;
     
 }
 
 .one{
     background:hotpink;
-    flex-shrink:1;
-
+    
 }
 
 .two{
     background:pink; 
-    flex-shrink:2;
 }
 
 .three{
     background:rgb(133, 36, 81);
-    flex-shrink:3;
 }
