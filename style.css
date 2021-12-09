@@ -20,23 +20,25 @@ body{
    
 }
 
-
 .box{
     height: 100px;
     min-width: 100px;
-    float: lef;
-  
+    
+    
 }
 
 .one{
     background:hotpink;
+    flex-grow: 2;
 
 }
 
 .two{
     background:pink; 
+    flex-grow: 3;
 }
 
 .three{
-    background:plum;
+    background:rgb(133, 36, 81);
+    flex-grow: 1;
 }
