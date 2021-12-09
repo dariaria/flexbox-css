@@ -45,9 +45,14 @@ nav a:hover{
 
 nav ul{
 
-    display: flex;
+  display: flex;
   flex-direction: row;
+  justify-content: flex-end;
       
+ }
+
+ nav li{
+     //flex: 1 1 0; 
  }
 
 
